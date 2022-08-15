@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour Markson</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/My_display_photo.jpg' %}" alt="My_display_photo">
+                    <hr>
+                    <h4>Hi I'm Markson!</h4>
+                    <p>A fullstack developer and Chess Enthusiast.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About Me</h4>
+                    <hr>
+                    <p>A forward-thinking Computer Science undergraduate from the university of Ibadan, Ibadan,
+                        Nigeria. Eager to develop information by implementing and developing streamlined procedures to
+                        improve performance.
+                        Skilled in Python Programming as well as creating and developing web applications with HTML and
+                        CSS.</p>
+                    <br>
+                    <p>
+                        Seeking to leverage my programming skills on open source projects, internships and multiple types of software and application development. </p>
+
+                    <ul class="social-links" id="social">
+                        <li id="socials"> <a
+                                href="https://twitter.com/MarksonFavour1?t=_hM4vcU33my22fWHCCadFw&s=09"><img
+                                    class="social" src="{% static 'images/twitter.png' %}" alt="Twitter icon"></li></a>
+                        <li id="socials"> <a href="https://github.com/Markson17"><img class="social"
+                                    src="{% static 'images/github.png' %}" alt="github icon"></li></a>
+                        <li id="socials"> <a href="https://www.linkedin.com/in/markson-favour-29453223a"><img
+                                    class="social" src="{% static 'images/linkedin.png' %}" alt="Linkedin icon"></li>
+                        </a>
+                        <li id="socials"> <a href="https://www.facebook.com/markson.favour.37"><img class="social"
+                                    src="{% static 'images/facebook.png' %}" alt="Facebook icon"></li></a>
+                        <li id="socials"> <a href="https://www.instagram.com/marksonfav_official/"><img class="social"
+                                    src="{% static 'images/instagram.png' %}" alt="Instagram icon"></li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>What I know</h4>
+                    <hr>
+                    <ul>
+                        <li>Python Programming.</li>
+                        <li>Django Framework.</li>
+                        <li>HTML and CSS.</li>
+                        <li>Javascript/Jquery.</li>
+                        <br>
+                        <p> <b>PS:</b> Working on React, Nodejs, Bootstrap and C programming language.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>How I learn</h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <p>I read through the documentation of any programming language I want to learn to have an
+                                in-depth knowlege. </p>
+                        </li>
+                        <li>
+                            <p>I leverage on some tutorial videos on Freecodecamp channel on youtube, I also read a
+                                5-star review programming pdfs and work on real world projects. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>Education</h4>
+                    <hr>
+                    <p> <b>Bachelor of science, Computer Science.</b></p>
+                    <p>University of Ibadan, Ibadan, Nigeria(Jan 2022 - Present).</p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>Hobbies</h4>
+                    <hr>
+                    <ul>
+                        <li>Playing Chess.</li>
+                        <li>Staying informed.</li>
+                        <li>Playing video games.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+
+</html>
